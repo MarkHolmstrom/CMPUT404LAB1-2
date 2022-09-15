@@ -1,3 +1,3 @@
 import requests
 
-print(requests.get("http://www.google.com"))
+print(requests.get("https://raw.githubusercontent.com/MarkHolmstrom/CMPUT404LAB1/master/my_script.py").text)
